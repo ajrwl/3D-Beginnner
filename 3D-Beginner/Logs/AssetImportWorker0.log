@@ -12,27 +12,27 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65093
+57527
 Successfully changed project path to: /Users/arianawaltonlambrecht/Projects/3D-Beginner/3D-Beginnner/3D-Beginner
 /Users/arianawaltonlambrecht/Projects/3D-Beginner/3D-Beginnner/3D-Beginner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/arianawaltonlambrecht/Projects/3D-Beginner/3D-Beginnner/3D-Beginner/Assets
 GfxDevice: creating device client; threaded=0
-2021-12-06 02:31:53.361 Unity[31255:840320] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2021-12-06 02:31:53.361 Unity[31255:840320] Metal devices available: 2
-2021-12-06 02:31:53.361 Unity[31255:840320] 0: AMD Radeon Pro 5300M (high power)
-2021-12-06 02:31:53.361 Unity[31255:840320] 1: Intel(R) UHD Graphics 630 (low power)
-2021-12-06 02:31:53.362 Unity[31255:840320] Using device AMD Radeon Pro 5300M (high power)
+2021-12-11 01:04:26.111 Unity[19641:1442048] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-12-11 01:04:26.111 Unity[19641:1442048] Metal devices available: 2
+2021-12-11 01:04:26.111 Unity[19641:1442048] 0: AMD Radeon Pro 5300M (high power)
+2021-12-11 01:04:26.111 Unity[19641:1442048] 1: Intel(R) UHD Graphics 630 (low power)
+2021-12-11 01:04:26.111 Unity[19641:1442048] Using device AMD Radeon Pro 5300M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5300M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56255
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56641
 Begin MonoManager ReloadAssembly
 Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
   at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <eae584ce26bc40229c1b1aa476bfa589>:0 
@@ -47,1108 +47,253 @@ Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: 
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004234 seconds.
+Registered in 0.004289 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.216 seconds
+- Completed reload, in  4.019 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005664 seconds.
+Registered in 0.004291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
+- Completed reload, in  0.888 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.3 MB.
-System memory in use after: 242.4 MB.
+Unloading 1627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.5 MB.
+System memory in use after: 243.6 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2058.
-Total: 2.161305 ms (FindLiveObjects: 0.266162 ms CreateObjectMapping: 0.089303 ms MarkObjects: 1.704823 ms  DeleteObjects: 0.099784 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Textures/VFX/DustMote.png
-  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/VFX/DustMote.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97f2c21ecb9b5990856d5b6c64b111') in 0.856838 seconds
-  Import took 0.861877 seconds .
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 1.990629 ms (FindLiveObjects: 0.205530 ms CreateObjectMapping: 0.053850 ms MarkObjects: 1.645337 ms  DeleteObjects: 0.085119 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Textures/UI/Won.png
-  artifactKey: Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/Won.png using Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31baf704653c105338eca327696b13f1') in 0.024404 seconds
-  Import took 0.027977 seconds .
+  path: Assets/Audio/SFXHouseAmbience.wav
+  artifactKey: Guid(205287722f2b6b64583b86d65fdeeb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXHouseAmbience.wav using Guid(205287722f2b6b64583b86d65fdeeb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe272f3c83f94d031f1fa43e152dfbed') in 1.668389 seconds
+  Import took 1.673561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Textures/UI/Caught.png
-  artifactKey: Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/Caught.png using Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c765e0a76361c6645427a8122ffc388b') in 0.020925 seconds
-  Import took 0.023741 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Audio/SFXWin.wav
+  artifactKey: Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXWin.wav using Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4cefaa4f33a33894d8b8e573bbabc') in 0.012184 seconds
+  Import took 0.015523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 244.770267 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d618f590ec48963f6ab8d22d2450602') in 0.001856 seconds
-  Import took 0.006427 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/Audio/SFXFootstepsLooping.wav
+  artifactKey: Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXFootstepsLooping.wav using Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f4a32440f8f0c4fdda621bd44fee62') in 0.009945 seconds
+  Import took 0.013119 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000891 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d618f590ec48963f6ab8d22d2450602') in 0.000886 seconds
-  Import took 0.003673 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/Audio/SFXGhostMove.wav
+  artifactKey: Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXGhostMove.wav using Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9f13a1dd1d796570f0a0ecf1008c2') in 0.008667 seconds
+  Import took 0.011647 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.096731 seconds.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Audio/SFXGameOver.wav
+  artifactKey: Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXGameOver.wav using Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa22271ed77889a3603c67d73b20ef9') in 0.008104 seconds
+  Import took 0.011163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Audio/SFXBuzzingLight.wav
+  artifactKey: Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXBuzzingLight.wav using Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c94298539bbd285420a71d3a5aae2ad') in 0.007400 seconds
+  Import took 0.010597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Audio/SFXCandle.wav
+  artifactKey: Guid(dd7f55e125ee8f947b2f399e20aeec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXCandle.wav using Guid(dd7f55e125ee8f947b2f399e20aeec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aa190e6438f6c481ed4d3421cd946b') in 0.007283 seconds
+  Import took 0.009834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.9 MB.
+System memory in use after: 249.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 2.246071 ms (FindLiveObjects: 0.243978 ms CreateObjectMapping: 0.067118 ms MarkObjects: 1.869095 ms  DeleteObjects: 0.064295 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.689953 seconds.
   path: Assets/Scripts/GameEnding.cs
   artifactKey: Guid(5fcb54e10b4ac40c9a471a107b9ae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameEnding.cs using Guid(5fcb54e10b4ac40c9a471a107b9ae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bc27e5cecb64ff7113395956cd1386') in 0.200887 seconds
-  Import took 0.204106 seconds .
+Start importing Assets/Scripts/GameEnding.cs using Guid(5fcb54e10b4ac40c9a471a107b9ae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c060c50a6b6a0cbd85f9e33c4269708') in 0.305027 seconds
+  Import took 0.308409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.024117 seconds.
+  path: Assets/Scripts/GameEnding.cs
+  artifactKey: Guid(5fcb54e10b4ac40c9a471a107b9ae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameEnding.cs using Guid(5fcb54e10b4ac40c9a471a107b9ae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128cdc0b0fecf74a2f8be2d6b99bc78b') in 0.008898 seconds
+  Import took 0.016154 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001644 seconds.
+Registered in 0.001344 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.769 seconds
+- Completed reload, in  0.741 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 251.8 MB.
-System memory in use after: 251.9 MB.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.4 MB.
+System memory in use after: 253.5 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 2.389023 ms (FindLiveObjects: 0.212701 ms CreateObjectMapping: 0.073376 ms MarkObjects: 2.041163 ms  DeleteObjects: 0.060712 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 1.819504 ms (FindLiveObjects: 0.198130 ms CreateObjectMapping: 0.052831 ms MarkObjects: 1.516441 ms  DeleteObjects: 0.051101 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.796430 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(3bc8c5432986248968ac5f714edfc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(3bc8c5432986248968ac5f714edfc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64f3ed668f0cd9efbd6cddd110578a5') in 0.008544 seconds
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.242735 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(3bc8c5432986248968ac5f714edfc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(3bc8c5432986248968ac5f714edfc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1baaa9ec746ca147ea978a274d55484') in 0.006353 seconds
+  Import took 0.020747 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002502 seconds.
+Registered in 0.002345 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.7 MB.
+System memory in use after: 253.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2079.
+Total: 1.902002 ms (FindLiveObjects: 0.267013 ms CreateObjectMapping: 0.049613 ms MarkObjects: 1.505622 ms  DeleteObjects: 0.078750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 252.1 MB.
-System memory in use after: 252.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 2.643018 ms (FindLiveObjects: 0.433371 ms CreateObjectMapping: 0.083315 ms MarkObjects: 2.032830 ms  DeleteObjects: 0.092442 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001266 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 252.4 MB.
-System memory in use after: 252.5 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2074.
-Total: 2.577060 ms (FindLiveObjects: 0.260974 ms CreateObjectMapping: 0.079870 ms MarkObjects: 2.157381 ms  DeleteObjects: 0.077092 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 456.267789 seconds.
-  path: Assets/Prefabs/Gargoyle Variant.prefab
-  artifactKey: Guid(0fb2daca12cec474da1dff1eb820250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle Variant.prefab using Guid(0fb2daca12cec474da1dff1eb820250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ddedaa83693c2767e963eae11d2c1a') in 0.883651 seconds
-  Import took 0.887714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.103205 seconds.
-  path: Assets/Prefabs/Ghost Variant.prefab
-  artifactKey: Guid(f3bdd6b7ef9414cecb0f24dce59cb1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost Variant.prefab using Guid(f3bdd6b7ef9414cecb0f24dce59cb1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd20759859f72a7e2fd5590fadfdf18d') in 0.029195 seconds
-  Import took 0.032875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.701969 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1d510c6539006dd02b0477463eeae') in 0.022722 seconds
-  Import took 0.026523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003642 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1d510c6539006dd02b0477463eeae') in 0.018031 seconds
-  Import took 0.021459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.968914 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796956e3062a1bdf4044c1e139286c3d') in 0.020321 seconds
-  Import took 0.023583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003211 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796956e3062a1bdf4044c1e139286c3d') in 0.017223 seconds
-  Import took 0.020740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.868470 seconds.
-  path: Assets/Animation/Animators/Gargoyle.controller
-  artifactKey: Guid(46e9d8626e7934538856132e28e2d4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animators/Gargoyle.controller using Guid(46e9d8626e7934538856132e28e2d4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d239abd7cc3d8125a233063e2326812') in 0.098573 seconds
-  Import took 0.102501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.262882 seconds.
-  path: Assets/Animation/Animators/Ghost.controller
-  artifactKey: Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animators/Ghost.controller using Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3b9ec6c46abdbc21ec580557bbe5af') in 0.006816 seconds
-  Import took 0.010269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000769 seconds.
-  path: Assets/Animation/Animators/Ghost.controller
-  artifactKey: Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animators/Ghost.controller using Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3b9ec6c46abdbc21ec580557bbe5af') in 0.005810 seconds
-  Import took 0.008788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.512541 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '80bc731208212d6ad8b2594fea81d5b5') in 0.034727 seconds
-  Import took 0.038106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.366574 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '464b7e8fd0c0b3a85401c61f39bb5543') in 0.028069 seconds
-  Import took 0.031740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.096474 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '0beb80b566bec79b638646d41b2d363d') in 0.025907 seconds
-  Import took 0.030217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.824932 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '91d472f5874425603fdca2e5dba0b4ed') in 0.027784 seconds
-  Import took 0.030804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.423399 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'd608c22d4eb67212cc207260aa733e69') in 0.026895 seconds
-  Import took 0.030702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.823461 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '43183b6657d7d97dbb5966f8f4ad892b') in 0.028191 seconds
-  Import took 0.031695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.335111 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '458344228c36e60de929cc38bf808503') in 0.037863 seconds
-  Import took 0.041347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.555993 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'b54cc11b7e6ebe66172204589eb4779a') in 0.021272 seconds
-  Import took 0.025142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.654728 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '613fbb94082cf07f2cab00b8b861dc99') in 0.027453 seconds
-  Import took 0.030963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.191226 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'aca3835482d5f49960a77eaa421cfcd0') in 0.034306 seconds
-  Import took 0.037678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.793938 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '09d450fcade3aeec768d7bb2546f8880') in 0.022642 seconds
-  Import took 0.025765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.713857 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '643a20b3abbf7bda8463f6e75cda7e48') in 0.030298 seconds
-  Import took 0.034207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.382419 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '6c883c9a9345057ffb8574406a5869f5') in 0.027334 seconds
-  Import took 0.030925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.270873 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'b1b014937667cf993c38805ff777bbcc') in 0.040042 seconds
-  Import took 0.043020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.199702 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'd006dd7178a5c9fd1119a858bfa9b32b') in 0.040539 seconds
-  Import took 0.044186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.519561 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: 'bbb842c4f0b53461f8dc0237b47d1c16') in 0.024208 seconds
-  Import took 0.027269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.505883 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
-The Animator Controller (Gargoyle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
-
- -> (artifact id: '33afd07cbf6e75adb304b137fb42dc34') in 0.036763 seconds
-  Import took 0.040279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.456490 seconds.
-  path: Assets/Scripts/Observer.cs
-  artifactKey: Guid(2d72b8491765a4e4a9cf7b36294e3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Observer.cs using Guid(2d72b8491765a4e4a9cf7b36294e3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9add9eadef31d4b8b93b8df3ae676315') in 0.004903 seconds
-  Import took 0.008010 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001587 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
+- Completed reload, in  1.040 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 262.2 MB.
-System memory in use after: 262.3 MB.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.0 MB.
+System memory in use after: 254.1 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 1.643294 ms (FindLiveObjects: 0.174612 ms CreateObjectMapping: 0.054592 ms MarkObjects: 1.355296 ms  DeleteObjects: 0.057699 ms)
+Total: 2.350952 ms (FindLiveObjects: 0.320952 ms CreateObjectMapping: 0.085490 ms MarkObjects: 1.880579 ms  DeleteObjects: 0.061995 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001716 seconds.
+Registered in 0.002096 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.822 seconds
+- Completed reload, in  0.741 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 262.5 MB.
-System memory in use after: 262.6 MB.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.3 MB.
+System memory in use after: 254.4 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2085.
-Total: 1.670125 ms (FindLiveObjects: 0.163516 ms CreateObjectMapping: 0.051028 ms MarkObjects: 1.402079 ms  DeleteObjects: 0.052663 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001626 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 262.7 MB.
-System memory in use after: 262.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2088.
-Total: 2.328557 ms (FindLiveObjects: 0.444249 ms CreateObjectMapping: 0.074571 ms MarkObjects: 1.738845 ms  DeleteObjects: 0.069638 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001305 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 263.0 MB.
-System memory in use after: 263.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2091.
-Total: 2.027616 ms (FindLiveObjects: 0.246599 ms CreateObjectMapping: 0.102321 ms MarkObjects: 1.614510 ms  DeleteObjects: 0.062814 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 801.944289 seconds.
-  path: Assets/Animation/Animators/Ghost.controller
-  artifactKey: Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animators/Ghost.controller using Guid(9504e1596ccdf490d87d2ec393169e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca4e97e3f2376ae34d59aef1ed5f7bb') in 0.019108 seconds
-  Import took 0.022403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.909729 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9801780644cc5a142952fe8d8fdd786') in 0.092587 seconds
-  Import took 0.096321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.471914 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e072a89ad2bad94fcf6523654076a7') in 0.047868 seconds
-  Import took 0.052328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.316966 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84c29ab18f2fdb17b0b8dce4883aa4c') in 0.040654 seconds
-  Import took 0.044209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.344191 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f115077b2b7c4a7479348d30fb4e5feb') in 0.040216 seconds
-  Import took 0.044361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.025203 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75eca6da1b8d63e4f6a422040c6abc1') in 0.040002 seconds
-  Import took 0.043675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.034313 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c3ad21922f64508b8ede7224b6725') in 0.026606 seconds
-  Import took 0.029736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.646283 seconds.
-  path: Assets/Prefabs/Ghost.prefab
-  artifactKey: Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost.prefab using Guid(cdc30d26f739841e299767efe64028ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa6e7cbbd5b736856e6b183a9929418') in 0.024714 seconds
-  Import took 0.028178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.724593 seconds.
-  path: Assets/Prefabs/PointOfView.prefab
-  artifactKey: Guid(c34c1dd2ec0454e69b9aa8bea5611839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PointOfView.prefab using Guid(c34c1dd2ec0454e69b9aa8bea5611839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dca88364c8197d4bba1231d0cf9ed62') in 0.009909 seconds
-  Import took 0.013206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.163248 seconds.
-  path: Assets/Prefabs/Gargoyle.prefab
-  artifactKey: Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gargoyle.prefab using Guid(e9965b49724a14e429b69693552db146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8ee09e34f5d73f478a26b8e098c0de') in 0.035883 seconds
-  Import took 0.039886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.977905 seconds.
-  path: Assets/Scripts/WayPointPatrol.cs
-  artifactKey: Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WayPointPatrol.cs using Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568241d044cedbdcb68cda6d70fb581') in 0.005513 seconds
-  Import took 0.008755 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 263.6 MB.
-System memory in use after: 263.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 1.625518 ms (FindLiveObjects: 0.169194 ms CreateObjectMapping: 0.052170 ms MarkObjects: 1.345284 ms  DeleteObjects: 0.057619 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001411 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 263.8 MB.
-System memory in use after: 263.9 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 2.043296 ms (FindLiveObjects: 0.218903 ms CreateObjectMapping: 0.113282 ms MarkObjects: 1.644422 ms  DeleteObjects: 0.065133 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.296063 seconds.
-  path: Assets/Scripts/WaypointPatrol.cs
-  artifactKey: Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WaypointPatrol.cs using Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9aeae17458c253591056b5deab3247') in 0.008129 seconds
-  Import took 0.010752 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001394 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 264.2 MB.
-System memory in use after: 264.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2102.
-Total: 2.422772 ms (FindLiveObjects: 0.254978 ms CreateObjectMapping: 0.085104 ms MarkObjects: 2.001113 ms  DeleteObjects: 0.079611 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.692811 seconds.
-  path: Assets/Scripts/WaypointPatrol.cs
-  artifactKey: Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WaypointPatrol.cs using Guid(ffc70c4d89468405ea09f59efbd69d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b74cd4ae89fc545c4b0e8b2586ed6d') in 0.006879 seconds
-  Import took 0.009984 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002278 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 264.4 MB.
-System memory in use after: 264.5 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2105.
-Total: 2.200889 ms (FindLiveObjects: 0.233989 ms CreateObjectMapping: 0.051069 ms MarkObjects: 1.857533 ms  DeleteObjects: 0.056562 ms)
+Total: 2.473075 ms (FindLiveObjects: 0.235651 ms CreateObjectMapping: 0.071029 ms MarkObjects: 2.100786 ms  DeleteObjects: 0.064385 ms)
 
